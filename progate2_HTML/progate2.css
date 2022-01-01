@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height:65px;
+    background-color:rgba(34,49,52,0.9);
+    opacity:0.8;
+    width:100%;
+    position: fixed;
+    z-index:1;
+    top:0;
+}
+.header-container{
+    width:1170px;
+    margin:0 auto;
+}
+header img{
+    padding-top:10px;
+}
+header a{
+    float:right;
+    color:white;
+    background-color:rgba(255,255,255,0.3);
+    line-height: 65px;
+    padding:0 25px;
+    
+}
+header a:hover{
+    background-color:rgba(255,255,255,0.5);
+    transition:all 0.5s;
+}
+
+main{
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size:cover;
+    height:900px;
+    
+}
+.main-wrapper{
+    padding:200px 0 100px 0;
+    text-align: center;
+    color:white;
+    opacity:0.8;
+    
+}
+.main-wrapper h2{
+    font-size:40px;
+    letter-spacing: 5px;
+    font-weight:normal;
+}
+.logins{
+    text-align: center;
+    
+}
+.join{
+    color:white;
+    padding:10px 20px;
+    opacity:0.8
+}
+.new-join{
+    background-color: #03b903;
+}  
+.or{
+    margin:20px;
+    color:white;
+}
+.facebook-join{
+    margin-right:30px;
+    background-color: #3131c7;
+}
+.twitter-join{
+    background-color: #0dc5c5;
+}
+footer{
+    padding-top:80px;
+    width:1170px;
+    margin:auto;
+    
+}
+footer h3{
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 60px;
+}
+.icons{
+    text-align: center;
+}
+.lesson{
+    width:25%;
+    float:left;
+    
+    
+}
+.lesson-icon{
+    padding-left:50px;
+    position: relative;
+    
+}
+
+.lesson-icon p{
+    position: absolute;
+    left:150px;
+    top:90px;
+}
+.text{
+    width:80%;
+    text-align:center;
+}
